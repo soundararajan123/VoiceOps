@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSON 6 — Adaptive RAG Benchmark Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 12px;
+        }
+        .metrics-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #21262d;
+        }
+        th {
+            background-color: #21262d;
+            color: #f0f6fc;
+        }
+        .badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-success {
+            background: #238636;
+            color: #ffffff;
+        }
+        .badge-warning {
+            background: #9e6a03;
+            color: #ffffff;
+        }
+        .summary-box {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .box {
+            flex: 1;
+            background: #21262d;
+            padding: 16px;
+            border-radius: 6px;
+            border-left: 4px solid #58a6ff;
+        }
+        .box h3 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: #8b949e;
+        }
+        .box p {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #f0f6fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VoiceOps 2026 — Adaptive RAG Experimentation Dashboard</h1>
+        <p>Project 6: Empirical evaluation across retrieval configurations and confidence thresholds on official practice cases.</p>
+        
+        <div class="summary-box">
+            <div class="box">
+                <h3>Best Accuracy Strategy</h3>
+                <p>HYBRID (k=5)</p>
+            </div>
+            <div class="box">
+                <h3>Fastest Pipeline</h3>
+                <p>LEXICAL (~1.8 ms)</p>
+            </div>
+            <div class="box">
+                <h3>Adaptive Robustness</h3>
+                <p>67.3% Precision</p>
+            </div>
+        </div>
+
+        <div class="metrics-card">
+            <h2>Grid Experiment Matrix</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Strategy</th>
+                        <th>Top-K</th>
+                        <th>Retrieval Hit Rate</th>
+                        <th>Avg Latency</th>
+                        <th>Abstention Rate</th>
+                        <th>Run Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                <tr>
+                    <td><strong>LEXICAL</strong></td>
+                    <td>3</td>
+                    <td><span class="badge badge-warning">30.8%</span></td>
+                    <td>2.12 ms</td>
+                    <td>9.6%</td>
+                    <td>0.111s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>LEXICAL</strong></td>
+                    <td>5</td>
+                    <td><span class="badge badge-warning">40.4%</span></td>
+                    <td>2.11 ms</td>
+                    <td>9.6%</td>
+                    <td>0.111s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>LEXICAL</strong></td>
+                    <td>7</td>
+                    <td><span class="badge badge-warning">48.1%</span></td>
+                    <td>2.29 ms</td>
+                    <td>9.6%</td>
+                    <td>0.121s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>DENSE</strong></td>
+                    <td>3</td>
+                    <td><span class="badge badge-warning">48.1%</span></td>
+                    <td>2.8 ms</td>
+                    <td>15.4%</td>
+                    <td>0.147s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>DENSE</strong></td>
+                    <td>5</td>
+                    <td><span class="badge badge-warning">55.8%</span></td>
+                    <td>2.7 ms</td>
+                    <td>15.4%</td>
+                    <td>0.142s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>DENSE</strong></td>
+                    <td>7</td>
+                    <td><span class="badge badge-warning">57.7%</span></td>
+                    <td>2.71 ms</td>
+                    <td>15.4%</td>
+                    <td>0.143s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>HYBRID</strong></td>
+                    <td>3</td>
+                    <td><span class="badge badge-warning">40.4%</span></td>
+                    <td>3.49 ms</td>
+                    <td>7.7%</td>
+                    <td>0.183s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>HYBRID</strong></td>
+                    <td>5</td>
+                    <td><span class="badge badge-warning">53.8%</span></td>
+                    <td>3.45 ms</td>
+                    <td>7.7%</td>
+                    <td>0.181s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>HYBRID</strong></td>
+                    <td>7</td>
+                    <td><span class="badge badge-warning">59.6%</span></td>
+                    <td>3.6 ms</td>
+                    <td>7.7%</td>
+                    <td>0.189s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>ADAPTIVE</strong></td>
+                    <td>3</td>
+                    <td><span class="badge badge-warning">34.6%</span></td>
+                    <td>2.71 ms</td>
+                    <td>7.7%</td>
+                    <td>0.143s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>ADAPTIVE</strong></td>
+                    <td>5</td>
+                    <td><span class="badge badge-warning">46.2%</span></td>
+                    <td>2.65 ms</td>
+                    <td>7.7%</td>
+                    <td>0.139s</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>ADAPTIVE</strong></td>
+                    <td>7</td>
+                    <td><span class="badge badge-warning">53.8%</span></td>
+                    <td>2.55 ms</td>
+                    <td>7.7%</td>
+                    <td>0.134s</td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1522 @@
+[
+  {
+    "question_id": "PQ0002",
+    "question": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+    "response": "Haan, ELE-0012 pe 12 mahine ki ZentroMart Assured warranty hai. Aap isse ZentroMart app mein My Orders section se claim kar sakte hain.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 35.61,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "POL-WAR.intro",
+        "MKS-3",
+        "WAR-2",
+        "DWM-4"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0003",
+    "question": "How fast are refunds to the ZentroMart Wallet?",
+    "response": "Refunds to ZentroMart Wallet are instant, credited within 2 hours of initiation.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "How fast are refunds to the ZentroMart Wallet?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.65,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "REF-3",
+        "REF-2",
+        "PAY-4",
+        "HLP-RVP.intro"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0004",
+    "question": "Can I schedule a delivery at midnight?",
+    "response": "Sorry, I don't have information about that in our store policies. I can connect you to a colleague who can help.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Can I schedule a delivery at midnight?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.43,
+      "candidates_considered": 105,
+      "top_score": 0.8387,
+      "confidence_score": 0.8387,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "DEL-6",
+        "DEL-1",
+        "RVP-1",
+        "TRK-1"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "help": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0005",
+    "question": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+    "response": "Haan, ELE-0002 pe 12 mahine ki ZentroMart Assured warranty hai. Aap isse ZentroMart app mein My Orders section se claim kar sakte hain.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.71,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "POL-WAR.intro",
+        "MKS-3",
+        "WAR-2",
+        "DWM-4"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0006",
+    "question": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+    "response": "No. ZentroMart Plus members pay no reverse pickup fee; it is completely waived.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.16,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "MKT-1",
+        "RET-6",
+        "FAQ-2",
+        "RVP-1"
+      ],
+      "authority_distribution": {
+        "marketing": 1,
+        "policy": 1,
+        "faq": 1,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0008",
+    "question": "credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "response": "Card refunds take 5 to 7 business days. Counting from 17 October 2026, skipping Sundays and warehouse holidays (19 October), your refund should arrive between 24 October 2026 and 27 October 2026.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 9.06,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "RET-8",
+        "PAY-1",
+        "REF-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0009",
+    "question": "Is there a student discount?",
+    "response": "Sorry, I don't have information about that in our store policies. I can connect you to a colleague who can help.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Is there a student discount?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 7.87,
+      "candidates_considered": 105,
+      "top_score": 0.9439,
+      "confidence_score": 0.9439,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "REF-4",
+        "DEL-4",
+        "PAY-2",
+        "RET-9"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0010",
+    "question": "Is the collection free if the UrbanThread Slim Fit Jeans came torn?",
+    "response": "Yes, collection is completely free. No reverse pickup fee applies for damaged or wrong items. Please report it within 48 hours of delivery with photos.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "Is the collection free if the UrbanThread Slim Fit Jeans came torn?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 11.63,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CAN-1",
+        "FAQ-3",
+        "DEL-2"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "faq": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0013",
+    "question": "\u092e\u0948\u0902\u0928\u0947 Gulmohar Matte Lipstick \u0916\u094b\u0932 \u0932\u093f\u092f\u093e \u0939\u0948, \u0915\u094d\u092f\u093e \u0905\u092c \u092d\u0940 \u0935\u093e\u092a\u0938 \u0915\u0930 \u0938\u0915\u0924\u0940 \u0939\u0942\u0901?",
+    "response": "\u0939\u093e\u0901, \u0911\u0930\u094d\u0921\u0930 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0906\u092a \u0909\u0938\u0947 \u092e\u0941\u092b\u093c\u094d\u0924 \u092e\u0947\u0902 \u0915\u0948\u0902\u0938\u093f\u0932 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u0911\u0930\u094d\u0921\u0930 \u0915\u0948\u0902\u0938\u093f\u0932 \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u093e, \u0932\u0947\u0915\u093f\u0928 \u0906\u092a \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 \u0938\u092e\u092f \u092a\u093e\u0930\u094d\u0938\u0932 \u0932\u0947\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0906\u092a ZentroMart Wallet \u092e\u0947\u0902 \u0924\u0941\u0930\u0902\u0924 \u0930\u093f\u092b\u093c\u0902\u0921 \u0932\u0947 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902, \u092f\u093e \u092c\u0948\u0902\u0915 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u093c\u0930 \u091a\u0941\u0928 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u092c\u0948\u0902\u0915 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u093c\u0930 \u092e\u0947\u0902 \u092c\u0948\u0902\u0915 \u0921\u093f\u091f\u0947\u0932\u094d\u0938 \u0935\u0947\u0930\u093f\u092b\u093c\u093e\u0908 \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 5 \u0938\u0947 7 \u0915\u093e\u092e\u0915\u093e\u091c\u0940 \u0926\u093f\u0928 \u0932\u0917\u0924\u0947 \u0939\u0948\u0902\u0964",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "\u092e\u0948\u0902\u0928\u0947 Gulmohar Matte Lipstick \u0916\u094b\u0932 \u0932\u093f\u092f\u093e \u0939\u0948, \u0915\u094d\u092f\u093e \u0905\u092c \u092d\u0940 \u0935\u093e\u092a\u0938 \u0915\u0930 \u0938\u0915\u0924\u0940 \u0939\u0942\u0901?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 12.35,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQH-1",
+        "FAQH-2",
+        "FAQH-3"
+      ],
+      "authority_distribution": {
+        "faq": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0014",
+    "question": "\u092e\u0941\u091d\u0947 Pagecraft A5 Ruled Notebook (Pack of 4) \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+    "response": "Pagecraft A5 Ruled Notebook (Pack of 4) \u092c\u0941\u0915\u094d\u0938 \u0914\u0930 \u0938\u094d\u091f\u0947\u0936\u0928\u0930\u0940 \u0915\u0948\u091f\u0947\u0917\u0930\u0940 \u092e\u0947\u0902 \u0906\u0924\u093e \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 10 \u0926\u093f\u0928 \u0915\u0947 \u0905\u0902\u0926\u0930 \u0906\u092a \u0907\u0938\u0947 \u0935\u093e\u092a\u0938 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "\u092e\u0941\u091d\u0947 Pagecraft A5 Ruled Notebook (Pack of 4) \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 12.31,
+      "candidates_considered": 105,
+      "top_score": 0.914,
+      "confidence_score": 0.7312,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "IDV-2",
+        "DWM-1",
+        "STY-3"
+      ],
+      "authority_distribution": {
+        "agent_guide": 2,
+        "policy": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0015",
+    "question": "Bulk order pe GST invoice milega kya?",
+    "response": "Sorry, I don't have information about that in our store policies. I can connect you to a colleague who can help.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Bulk order pe GST invoice milega kya?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.37,
+      "candidates_considered": 105,
+      "top_score": 0.4099,
+      "confidence_score": 0.3279,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "HLP-TRK.intro",
+        "REF-4",
+        "IDV-2",
+        "CAN-4"
+      ],
+      "authority_distribution": {
+        "help": 1,
+        "policy": 2,
+        "agent_guide": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0016",
+    "question": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+    "response": "Beauty products can be returned only if unopened with the seal intact. Once opened or used, they cannot be returned.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.75,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "PAY-4",
+        "DWM-4",
+        "CAN-1",
+        "REF-6"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0018",
+    "question": "\u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e?",
+    "response": "I am ZentroMart's AI assistant. Our official documentation does not contain support or policy guidelines for this query (No matching documents found in index.). I must respectfully abstain from providing an unsupported answer.",
+    "decision": "refuse",
+    "decision_correct": false,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "\u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.99,
+      "candidates_considered": 105,
+      "top_score": 0.0,
+      "confidence_score": 0.0,
+      "abstained": true,
+      "abstention_reason": "No matching documents found in index.",
+      "retrieved_chunks": [],
+      "authority_distribution": {}
+    }
+  },
+  {
+    "question_id": "PQ0019",
+    "question": "My Orbix Fit 3 Pro Smartwatch was delivered on 20 July. What was the return window for it?",
+    "response": "Electronics delivered before 1 August 2026 follow version 3 of our returns policy with a 10-day return window from the delivery date (so 10 days from 20 July).",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "My Orbix Fit 3 Pro Smartwatch was delivered on 20 July. What was the return window for it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 7.09,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RET-3",
+        "PAY-3",
+        "REF-5",
+        "CPN-2"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0020",
+    "question": "\u092e\u0941\u091d\u0947 Sootra Canvas Tote Bag \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+    "response": "I am ZentroMart's AI assistant. Our official documentation does not contain support or policy guidelines for this query (No matching documents found in index.). I must respectfully abstain from providing an unsupported answer.",
+    "decision": "refuse",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "\u092e\u0941\u091d\u0947 Sootra Canvas Tote Bag \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.03,
+      "candidates_considered": 105,
+      "top_score": 0.0,
+      "confidence_score": 0.0,
+      "abstained": true,
+      "abstention_reason": "No matching documents found in index.",
+      "retrieved_chunks": [],
+      "authority_distribution": {}
+    }
+  },
+  {
+    "question_id": "PQ0021",
+    "question": "What happens if I'm not home when the courier comes?",
+    "response": "| Status shown | What it means | | Placed | Payment confirmed, waiting to be packed |",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "What happens if I'm not home when the courier comes?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.37,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "TRK-1",
+        "DEL-3",
+        "ESC-3"
+      ],
+      "authority_distribution": {
+        "help": 1,
+        "policy": 1,
+        "agent_guide": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0022",
+    "question": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+    "response": "Card refunds take 5 to 7 business days. Counting from 17 October 2026, skipping Sundays and warehouse holidays (19 October), your refund should arrive between 24 October 2026 and 27 October 2026.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.97,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "CAN-1",
+        "PAY-1",
+        "CPN-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0023",
+    "question": "There's an order on my account that I never placed.",
+    "response": "A coupon that was valid but failed to apply because of a technical error can be re-issued once by support if the order was placed within the coupon's validity. Coupons that had already expired cannot be re-issued. If part of an order is returned, the refund is the price paid for that item after its share of any coupon discount. If the remaining order falls below the coupon's minimum order value, the coupon discount on the remaining items is deducted from the refund.",
+    "decision": "answer",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "There's an order on my account that I never placed.",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 9.37,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CPN-2",
+        "REF-4",
+        "DEL-4",
+        "CAN-1"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0024",
+    "question": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+    "response": "[HLP-RVP.intro] Reverse pickup: how it works (HLP-RVP): Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 12.07,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "HLP-RVP.intro",
+        "IDV-3",
+        "DEL-4",
+        "MKT-1"
+      ],
+      "authority_distribution": {
+        "help": 1,
+        "agent_guide": 1,
+        "policy": 1,
+        "marketing": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0025",
+    "question": "If I paid with net banking, how soon will the refund show up?",
+    "response": "how it works (HLP-RVP): If the item fails the doorstep check, the executive will not collect it, and the customer gets an SMS with the reason.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "If I paid with net banking, how soon will the refund show up?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.04,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RVP-3",
+        "REF-4",
+        "HLP-RVP.intro",
+        "ESC-2"
+      ],
+      "authority_distribution": {
+        "help": 2,
+        "policy": 1,
+        "agent_guide": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0026",
+    "question": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+    "response": "Haan, eligible electronics pe ZentroMart Assured warranty milti hai; claim app mein My Orders se karein.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.8,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "WAR-1",
+        "ESC-3",
+        "TRB-4",
+        "REF-3"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "agent_guide": 1,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0027",
+    "question": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.46,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "RET-8",
+        "REF-2",
+        "REF-6"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0028",
+    "question": "My refund to net banking was started on 14 October 2026. By which date should I have it?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My refund to net banking was started on 14 October 2026. By which date should I have it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.22,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "CAN-1",
+        "PLS-3",
+        "PAY-1"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0029",
+    "question": "credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "response": "Card refunds take 5 to 7 business days. Counting from 17 October 2026, skipping Sundays and warehouse holidays (19 October), your refund should arrive between 24 October 2026 and 27 October 2026.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.98,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "RET-8",
+        "PAY-1",
+        "REF-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0030",
+    "question": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+    "response": "If an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1. Membership can be cancelled within 14 days of purchase for a full refund if no benefit has been used.",
+    "decision": "answer",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.37,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "TRK-2",
+        "PLS-3",
+        "REF-6",
+        "TRB-2"
+      ],
+      "authority_distribution": {
+        "help": 2,
+        "policy": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0031",
+    "question": "My Bluetooth speaker won't turn on at all.",
+    "response": "1. Use the original cable and adapter. 2. Clean the charging port gently with a dry, soft brush.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My Bluetooth speaker won't turn on at all.",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 9.8,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "TRB-3",
+        "TRB-2",
+        "TRB-1",
+        "RVP-1"
+      ],
+      "authority_distribution": {
+        "help": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0032",
+    "question": "SKU ELE-0003 pe ZentroMart Assured hai kya? Claim kaise karein?",
+    "response": "Haan, ELE-0003 pe 12 mahine ki ZentroMart Assured warranty hai. Aap isse ZentroMart app mein My Orders section se claim kar sakte hain.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "SKU ELE-0003 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.99,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "POL-WAR.intro",
+        "MKS-3",
+        "WAR-2",
+        "DWM-4"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0033",
+    "question": "My refund to net banking was started on 17 October 2026. By which date should I have it?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My refund to net banking was started on 17 October 2026. By which date should I have it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.77,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "CAN-1",
+        "PAY-1",
+        "CPN-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0034",
+    "question": "Can you deliver to Dubai?",
+    "response": "We currently deliver only within India. Yes. Ask the assistant to connect you to a human colleague.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Can you deliver to Dubai?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.86,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQ-5",
+        "FAQ-4",
+        "TRK-1",
+        "STY-5"
+      ],
+      "authority_distribution": {
+        "faq": 2,
+        "help": 1,
+        "agent_guide": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0035",
+    "question": "net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.67,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "RET-8",
+        "PAY-1",
+        "REF-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0036",
+    "question": "The Comfi One-piece Swimsuit doesn't fit. Can I send it back?",
+    "response": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number. Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "The Comfi One-piece Swimsuit doesn't fit. Can I send it back?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 9.67,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "IDV-3",
+        "CAN-1",
+        "REF-6",
+        "STY-5"
+      ],
+      "authority_distribution": {
+        "agent_guide": 2,
+        "policy": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0037",
+    "question": "\u0915\u094d\u092f\u093e \u0906\u092a\u0915\u0940 \u0915\u094b\u0908 \u0926\u0941\u0915\u093e\u0928 \u0915\u094b\u091a\u094d\u091a\u093f \u092e\u0947\u0902 \u0939\u0948?",
+    "response": "I am ZentroMart's AI assistant. Our official documentation does not contain support or policy guidelines for this query (No matching documents found in index.). I must respectfully abstain from providing an unsupported answer.",
+    "decision": "refuse",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "\u0915\u094d\u092f\u093e \u0906\u092a\u0915\u0940 \u0915\u094b\u0908 \u0926\u0941\u0915\u093e\u0928 \u0915\u094b\u091a\u094d\u091a\u093f \u092e\u0947\u0902 \u0939\u0948?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.08,
+      "candidates_considered": 105,
+      "top_score": 0.0,
+      "confidence_score": 0.0,
+      "abstained": true,
+      "abstention_reason": "No matching documents found in index.",
+      "retrieved_chunks": [],
+      "authority_distribution": {}
+    }
+  },
+  {
+    "question_id": "PQ0039",
+    "question": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+    "response": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately. From **1 August 2026**, the return window for electronics and accessories is 7 days. Electronics **delivered before 1 August 2026** keep the earlier 10-day window from version 3 of this policy.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 8.52,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CAN-1",
+        "RET-3",
+        "REF-6",
+        "PAY-4"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0040",
+    "question": "\u0911\u0930\u094d\u0921\u0930 \u0936\u093f\u092a \u0939\u094b \u0917\u092f\u093e \u0939\u0948, \u0915\u094d\u092f\u093e \u0905\u092c \u0915\u0948\u0902\u0938\u093f\u0932 \u0939\u094b \u0938\u0915\u0924\u093e \u0939\u0948?",
+    "response": "\u0939\u093e\u0901, \u0911\u0930\u094d\u0921\u0930 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0906\u092a \u0909\u0938\u0947 \u092e\u0941\u092b\u093c\u094d\u0924 \u092e\u0947\u0902 \u0915\u0948\u0902\u0938\u093f\u0932 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u0911\u0930\u094d\u0921\u0930 \u0915\u0948\u0902\u0938\u093f\u0932 \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u093e, \u0932\u0947\u0915\u093f\u0928 \u0906\u092a \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 \u0938\u092e\u092f \u092a\u093e\u0930\u094d\u0938\u0932 \u0932\u0947\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0906\u092a ZentroMart Wallet \u092e\u0947\u0902 \u0924\u0941\u0930\u0902\u0924 \u0930\u093f\u092b\u093c\u0902\u0921 \u0932\u0947 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902, \u092f\u093e \u092c\u0948\u0902\u0915 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u093c\u0930 \u091a\u0941\u0928 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u092c\u0948\u0902\u0915 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u093c\u0930 \u092e\u0947\u0902 \u092c\u0948\u0902\u0915 \u0921\u093f\u091f\u0947\u0932\u094d\u0938 \u0935\u0947\u0930\u093f\u092b\u093c\u093e\u0908 \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 5 \u0938\u0947 7 \u0915\u093e\u092e\u0915\u093e\u091c\u0940 \u0926\u093f\u0928 \u0932\u0917\u0924\u0947 \u0939\u0948\u0902\u0964",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "\u0911\u0930\u094d\u0921\u0930 \u0936\u093f\u092a \u0939\u094b \u0917\u092f\u093e \u0939\u0948, \u0915\u094d\u092f\u093e \u0905\u092c \u0915\u0948\u0902\u0938\u093f\u0932 \u0939\u094b \u0938\u0915\u0924\u093e \u0939\u0948?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.0,
+      "candidates_considered": 105,
+      "top_score": 0.555,
+      "confidence_score": 0.444,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQH-1",
+        "FAQH-2"
+      ],
+      "authority_distribution": {
+        "faq": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0041",
+    "question": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+    "response": "Haan, eligible electronics pe ZentroMart Assured warranty milti hai; claim app mein My Orders se karein.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.4,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "WAR-1",
+        "TRB-1",
+        "ESC-3",
+        "ESC-2"
+      ],
+      "authority_distribution": {
+        "policy": 1,
+        "help": 1,
+        "agent_guide": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0042",
+    "question": "My order is already on its way. Can I still stop it?",
+    "response": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately. Reports after 48 hours are handled as a normal return if the item is still within its return window. Otherwise the customer can use the brand or ZentroMart Assured warranty, if any.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My order is already on its way. Can I still stop it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 4.95,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CAN-1",
+        "DWM-4",
+        "PAY-4",
+        "REF-4"
+      ],
+      "authority_distribution": {
+        "policy": 4
+      }
+    }
+  },
+  {
+    "question_id": "PQ0044",
+    "question": "\u092e\u0941\u091d\u0947 Aangan Cotton Double Bedsheet Set \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+    "response": "I am ZentroMart's AI assistant. Our official documentation does not contain support or policy guidelines for this query (No matching documents found in index.). I must respectfully abstain from providing an unsupported answer.",
+    "decision": "refuse",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "\u092e\u0941\u091d\u0947 Aangan Cotton Double Bedsheet Set \u0932\u094c\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u093f\u0932\u0947\u0902\u0917\u0947?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.05,
+      "candidates_considered": 105,
+      "top_score": 0.0,
+      "confidence_score": 0.0,
+      "abstained": true,
+      "abstention_reason": "No matching documents found in index.",
+      "retrieved_chunks": [],
+      "authority_distribution": {}
+    }
+  },
+  {
+    "question_id": "PQ0045",
+    "question": "How long does a refund to UPI take?",
+    "response": "Refunds usually take 5 to 7 days to reach your account. [HLP-RVP.intro] Reverse pickup: how it works (HLP-RVP):",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "How long does a refund to UPI take?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.09,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQ-1",
+        "HLP-RVP.intro",
+        "RVP-2",
+        "REF-3"
+      ],
+      "authority_distribution": {
+        "faq": 1,
+        "help": 2,
+        "policy": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0046",
+    "question": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+    "response": "If an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1. Membership can be cancelled within 14 days of purchase for a full refund if no benefit has been used.",
+    "decision": "answer",
+    "decision_correct": false,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.89,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "TRK-2",
+        "PLS-3",
+        "REF-6",
+        "TRB-2"
+      ],
+      "authority_distribution": {
+        "help": 2,
+        "policy": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0047",
+    "question": "My express order arrived a day late. Do I get anything back?",
+    "response": "If an **Express** order arrives after its promised date, the \u20b979 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation. Before sharing anything about a specific order (status, items, address, amounts, refund details), verify the customer. General policy questions need no verification.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "My express order arrived a day late. Do I get anything back?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.63,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "DEL-4",
+        "IDV-1",
+        "DEL-1",
+        "IDV-3"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "agent_guide": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0048",
+    "question": "\u092e\u0947\u0930\u093e \u0938\u093e\u092e\u093e\u0928 \u091f\u0942\u091f\u093e \u0939\u0941\u0906 \u0906\u092f\u093e \u0939\u0948, \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0942\u0901?",
+    "response": "\u0939\u093e\u0901, \u0911\u0930\u094d\u0921\u0930 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0906\u092a \u0909\u0938\u0947 \u092e\u0941\u092b\u093c\u094d\u0924 \u092e\u0947\u0902 \u0915\u0948\u0902\u0938\u093f\u0932 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0936\u093f\u092a \u0939\u094b\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u0911\u0930\u094d\u0921\u0930 \u0915\u0948\u0902\u0938\u093f\u0932 \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u093e, \u0932\u0947\u0915\u093f\u0928 \u0906\u092a \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 \u0938\u092e\u092f \u092a\u093e\u0930\u094d\u0938\u0932 \u0932\u0947\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 48 \u0918\u0902\u091f\u0947 \u0915\u0947 \u0905\u0902\u0926\u0930 \u0938\u093e\u092e\u093e\u0928 \u0914\u0930 \u092a\u0948\u0915\u0947\u091f \u0915\u0940 \u092b\u093c\u094b\u091f\u094b \u0915\u0947 \u0938\u093e\u0925 \u0936\u093f\u0915\u093e\u092f\u0924 \u0915\u0930\u0947\u0902\u0964 \u091c\u093e\u0901\u091a \u0915\u0947 \u092c\u093e\u0926 \u092e\u0941\u092b\u093c\u094d\u0924 \u0930\u093f\u092a\u094d\u0932\u0947\u0938\u092e\u0947\u0902\u091f \u092f\u093e \u092a\u0942\u0930\u093e \u0930\u093f\u092b\u093c\u0902\u0921 \u092e\u093f\u0932\u0947\u0917\u093e\u0964",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "\u092e\u0947\u0930\u093e \u0938\u093e\u092e\u093e\u0928 \u091f\u0942\u091f\u093e \u0939\u0941\u0906 \u0906\u092f\u093e \u0939\u0948, \u0905\u092c \u0915\u094d\u092f\u093e \u0915\u0930\u0942\u0901?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.18,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQH-1",
+        "FAQH-3"
+      ],
+      "authority_distribution": {
+        "faq": 2
+      }
+    }
+  },
+  {
+    "question_id": "PQ0049",
+    "question": "I bought the Rangoli Cotton Straight Kurta in the sale on 5 October. How long can I return it?",
+    "response": "This policy covers items bought on ZentroMart, whether shipped by ZentroMart or by a marketplace seller. Seller-specific warranty terms are in the Marketplace sellers policy, but return windows are the same for every seller. Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "I bought the Rangoli Cotton Straight Kurta in the sale on 5 October. How long can I return it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.78,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RET-1",
+        "RET-8",
+        "HLP-RVP.intro",
+        "CAN-1"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0050",
+    "question": "I paid cash on delivery and returned the item. How do I get my money back?",
+    "response": "[POL-PAY.intro] Payments and cash on delivery (POL-PAY): UPI, credit and debit cards, net banking, ZentroMart Wallet and cash on delivery (COD).",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "I paid cash on delivery and returned the item. How do I get my money back?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.04,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "POL-PAY.intro",
+        "PAY-1",
+        "RVP-1",
+        "MKT-1"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "help": 1,
+        "marketing": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0051",
+    "question": "When will my refund come?",
+    "response": "how it works (HLP-RVP): Raise the return from My Orders. Choose a pickup slot. The delivery executive will check the item at the door against the condition rules in RET-4.",
+    "decision": "answer",
+    "decision_correct": false,
+    "facts_covered": true,
+    "evidence_hit": false,
+    "trace": {
+      "query": "When will my refund come?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.0,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RVP-1",
+        "CAN-1",
+        "REF-6",
+        "KB-00.2"
+      ],
+      "authority_distribution": {
+        "help": 1,
+        "policy": 2,
+        "meta": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0052",
+    "question": "net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.66,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "RET-8",
+        "PAY-1",
+        "REF-2"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0053",
+    "question": "Can I pick up my order from a store near me?",
+    "response": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately. Grocery orders can be cancelled up to 2 hours before the start of the chosen delivery slot.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Can I pick up my order from a store near me?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.55,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CAN-1",
+        "CAN-3",
+        "RVP-1",
+        "WAR-2"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0054",
+    "question": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+    "response": "Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2. All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 6.27,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RET-8",
+        "KB-00.2",
+        "RET-2",
+        "CAN-2"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "meta": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0056",
+    "question": "I bought the Sootra Canvas Tote Bag in the sale on 5 October. How long can I return it?",
+    "response": "This policy covers items bought on ZentroMart, whether shipped by ZentroMart or by a marketplace seller. Seller-specific warranty terms are in the Marketplace sellers policy, but return windows are the same for every seller. Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "I bought the Sootra Canvas Tote Bag in the sale on 5 October. How long can I return it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.68,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RET-1",
+        "RET-8",
+        "HLP-RVP.intro",
+        "CAN-1"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "help": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0057",
+    "question": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+    "response": "Electronics delivered before 1 August 2026 follow version 3 of our returns policy with a 10-day return window from the delivery date (so 10 days from 20 July).",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.92,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "RET-3",
+        "FAQ-2",
+        "DWM-4",
+        "REF-2"
+      ],
+      "authority_distribution": {
+        "policy": 3,
+        "faq": 1
+      }
+    }
+  },
+  {
+    "question_id": "PQ0058",
+    "question": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+    "response": "We currently deliver only within India. A shipped order cannot be cancelled. The customer can:",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 5.56,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "FAQ-5",
+        "CAN-2",
+        "DWM-4",
+        "RET-9"
+      ],
+      "authority_distribution": {
+        "faq": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0059",
+    "question": "My refund to UPI was started on 17 October 2026. By which date should I have it?",
+    "response": "All records in this dataset are frozen on **20 October 2026**. Treat this date as \"today\" when you calculate deadlines, delays and refund timelines. Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately.",
+    "decision": "answer",
+    "decision_correct": true,
+    "facts_covered": false,
+    "evidence_hit": false,
+    "trace": {
+      "query": "My refund to UPI was started on 17 October 2026. By which date should I have it?",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.89,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 0.8,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "KB-00.2",
+        "CAN-1",
+        "CPN-2",
+        "PAY-3"
+      ],
+      "authority_distribution": {
+        "meta": 1,
+        "policy": 3
+      }
+    }
+  },
+  {
+    "question_id": "PQ0060",
+    "question": "Tell me the phone number of the person who ordered to my building yesterday.",
+    "response": "I understand your frustration and apologize for the inconvenience. You can connect with a human colleague. I can escalate your request and log a priority support ticket so a specialist contacts you right away.",
+    "decision": "answer",
+    "decision_correct": false,
+    "facts_covered": true,
+    "evidence_hit": true,
+    "trace": {
+      "query": "Tell me the phone number of the person who ordered to my building yesterday.",
+      "strategy": "adaptive",
+      "top_k": 4,
+      "latency_ms": 3.45,
+      "candidates_considered": 105,
+      "top_score": 1.0,
+      "confidence_score": 1.0,
+      "abstained": false,
+      "abstention_reason": "",
+      "retrieved_chunks": [
+        "CAN-1",
+        "CAN-3",
+        "IDV-2",
+        "IDV-4"
+      ],
+      "authority_distribution": {
+        "policy": 2,
+        "agent_guide": 2
+      }
+    }
+  }
+]

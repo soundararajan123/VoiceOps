@@ -1,0 +1,17 @@
+{
+  "original_audio": "sample_festive_sale.wav",
+  "transcription": "What is the festive sale return window?",
+  "response_text": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+  "response_audio": "sample_festive_sale_reply.wav",
+  "tts_success": true,
+  "gnani_config": {
+    "voice": "Kaveri",
+    "model": "timbre-v2.5",
+    "language": "en-IN",
+    "live_api": false
+  },
+  "decision": "clarify",
+  "order_id": null,
+  "retrieved_evidence": [],
+  "status": "SUCCESS"
+}

@@ -1,0 +1,23 @@
+{
+  "original_audio": "sample_wallet_query.wav",
+  "transcription": "How fast are refunds to the ZentroMart wallet?",
+  "response_text": "Refunds are processed according to payment method: UPI takes 1 to 3 business days, net banking takes 3 to 5 business days, and cards take 5 to 7 business days (REF-2).",
+  "response_audio": "sample_wallet_query_reply.wav",
+  "text_reply": "sample_wallet_query_reply.txt",
+  "tts_status": "synthetic_wav_generated",
+  "stt_status": "offline_fixture",
+  "gnani_config": {
+    "voice": "Kaveri",
+    "model": "timbre-v2.5",
+    "language": "en-IN",
+    "live_api": false
+  },
+  "decision": "answer",
+  "order_id": null,
+  "tool_calls": [],
+  "retrieved_evidence": [
+    "REF-2",
+    "KB-00.1"
+  ],
+  "status": "success"
+}

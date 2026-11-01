@@ -1,0 +1,101 @@
+{
+  "total_files": 4,
+  "successful": 4,
+  "failed": 0,
+  "live_gnani": false,
+  "records": [
+    {
+      "original_audio": "festive_sale_query.wav",
+      "transcription": "What is the festive sale return window for clothing?",
+      "response_text": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+      "response_audio": "festive_sale_query_reply.wav",
+      "text_reply": "festive_sale_query_reply.txt",
+      "tts_status": "synthetic_wav_generated",
+      "stt_status": "offline_fixture",
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "clarify",
+      "order_id": null,
+      "tool_calls": [],
+      "retrieved_evidence": [
+        "STY-1"
+      ],
+      "status": "success"
+    },
+    {
+      "original_audio": "sample_order_status.wav",
+      "transcription": "What is the status of my order 89782837?",
+      "response_text": "Thank you for providing order 89782837. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+      "response_audio": "sample_order_status_reply.wav",
+      "text_reply": "sample_order_status_reply.txt",
+      "tts_status": "synthetic_wav_generated",
+      "stt_status": "offline_fixture",
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "clarify",
+      "order_id": null,
+      "tool_calls": [
+        "lookup_order(order_id=89782837)"
+      ],
+      "retrieved_evidence": [
+        "IDV-2"
+      ],
+      "status": "success"
+    },
+    {
+      "original_audio": "sample_wallet_query.wav",
+      "transcription": "How fast are refunds to the ZentroMart wallet?",
+      "response_text": "Refunds are processed according to payment method: UPI takes 1 to 3 business days, net banking takes 3 to 5 business days, and cards take 5 to 7 business days (REF-2).",
+      "response_audio": "sample_wallet_query_reply.wav",
+      "text_reply": "sample_wallet_query_reply.txt",
+      "tts_status": "synthetic_wav_generated",
+      "stt_status": "offline_fixture",
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "answer",
+      "order_id": null,
+      "tool_calls": [],
+      "retrieved_evidence": [
+        "REF-2",
+        "KB-00.1"
+      ],
+      "status": "success"
+    },
+    {
+      "original_audio": "tv_damage_escalation.wav",
+      "transcription": "My television arrived with a cracked screen and damage, I want to escalate to a representative.",
+      "response_text": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKT7ef9968821ff49d598e671b6f05f449e). Our team will review your case and connect with you directly.",
+      "response_audio": "tv_damage_escalation_reply.wav",
+      "text_reply": "tv_damage_escalation_reply.txt",
+      "tts_status": "synthetic_wav_generated",
+      "stt_status": "offline_fixture",
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "escalate",
+      "order_id": null,
+      "tool_calls": [
+        "create_ticket()"
+      ],
+      "retrieved_evidence": [
+        "ESC-1"
+      ],
+      "status": "success"
+    }
+  ]
+}

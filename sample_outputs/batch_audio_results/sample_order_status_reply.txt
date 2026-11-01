@@ -1,0 +1,12 @@
+Audio File: sample_order_status.wav
+Customer Transcription: What is the status of my order 89782837?
+
+Agent Text Response:
+Thank you for providing order 89782837. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (आख़िरी चार अंक या पिनकोड)?
+
+Retrieved Document Chunks / Sources: IDV-2
+
+Retrieved Source Chunks Detail:
+
+--- Section [IDV-2] ---
+Section verified in ZentroMart knowledge base.

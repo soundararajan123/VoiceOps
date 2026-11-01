@@ -1,0 +1,1783 @@
+{
+  "metrics": {
+    "total_conversations": 23,
+    "total_turns": 96,
+    "decision_accuracy_pct": 96.9,
+    "tool_call_accuracy_pct": 100.0,
+    "fact_coverage_pct": 96.9,
+    "error_categories": {}
+  },
+  "conversations": [
+    {
+      "conversation_id": "PC002",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8978 2837.",
+          "assistant_response": "Thank you for providing order 89782837. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=89782837)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=89782837)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4533 hain.",
+          "assistant_response": "Thank you, Kabir! Your identity has been verified. How can I assist you with order 89782837 (Promised delivery: 2026-10-15) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=89782837, verification_value=4533)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=89782837, verification_value=4533)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Maine Zentro Vista 43-inch 4K Smart TV damage report kiya tha. Abhi replacement approve kar do na?",
+          "assistant_response": "Under ZentroMart's Damaged Items Policy (DWM-3), damage claims on items over \u20b910,000 are handled directly by our Priority Resolution team. I have logged a priority ticket for you (Ticket ID: TKTc5d86fb3a64c45bf9ac4c3dcce92889b). Our specialist team will review your photos and contact you promptly.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC003",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1859 9253.",
+          "assistant_response": "Thank you for providing order 18599253. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=18599253)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=18599253)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4265 hain.",
+          "assistant_response": "Thank you, Meera! Your identity has been verified. How can I assist you with order 18599253 (Promised delivery: 2026-10-12) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=18599253, verification_value=4265)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=18599253, verification_value=4265)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Kya main Kaafi Running Sneakers return kar sakti hoon?",
+          "assistant_response": "Haan, aap is order ko delivery date se 15 din ke andar yani 27 October 2026 (2026-10-27) tak wapas kar sakte hain. ZentroMart Plus member hone ke kaaran reverse pickup bilkul free hai.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 5,
+          "customer_message": "Aur refund kitne din mein aayega?",
+          "assistant_response": "Item return hone ke baad UPI par refund 1 se 3 business days mein aa jata hai.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": false,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC004",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "\u0928\u092e\u0938\u094d\u0924\u0947, \u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "\u0911\u0930\u094d\u0921\u0930 \u0928\u0902\u092c\u0930 \u0939\u0948 7936 3550\u0964",
+          "assistant_response": "Thank you for providing order 79363550. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=79363550)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=79363550)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 2949 \u0939\u0948\u0902\u0964",
+          "assistant_response": "Thank you, Harini! Your identity has been verified. How can I assist you with order 79363550 (Promised delivery: 2026-10-13) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=79363550, verification_value=2949)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=79363550, verification_value=2949)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "\u0915\u094d\u092f\u093e \u092e\u0948\u0902 UrbanThread Slim Fit Jeans \u0935\u093e\u092a\u0938 \u0915\u0930 \u0938\u0915\u0924\u0940 \u0939\u0942\u0901?",
+          "assistant_response": "Haan, aap is order ko delivery date se 30 din ke andar yani 13 November 2026 (2026-11-13) tak wapas kar sakte hain. Reverse pickup fee of \u20b949 applies.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 5,
+          "customer_message": "\u0914\u0930 \u0930\u093f\u092b\u093c\u0902\u0921 \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092e\u0947\u0902 \u0906\u090f\u0917\u093e?",
+          "assistant_response": "\u092e\u0941\u092b\u093c\u094d\u0924 \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938 \u0921\u093f\u0932\u0940\u0935\u0930\u0940, \u0915\u093f\u0938\u0940 \u092d\u0940 \u0930\u093f\u091f\u0930\u094d\u0928 \u092a\u0930 \u092a\u093f\u0915\u0905\u092a \u092b\u093c\u0940\u0938 \u0928\u0939\u0940\u0902, \u0914\u0930 \u0930\u093f\u091f\u0930\u094d\u0928 \u0915\u093e \u0930\u093f\u092b\u093c\u0902\u0921 \u092a\u093f\u0915\u0905\u092a \u0915\u0947 \u0938\u092e\u092f \u0939\u0940 \u0936\u0941\u0930\u0942 \u0939\u094b \u091c\u093e\u0924\u093e \u0939\u0948\u0964 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0915\u0947 48 \u0918\u0902\u091f\u0947 \u0915\u0947 \u0905\u0902\u0926\u0930 \u0938\u093e\u092e\u093e\u0928 \u0914\u0930 \u092a\u0948\u0915\u0947\u091f \u0915\u0940 \u092b\u093c\u094b\u091f\u094b \u0915\u0947 \u0938\u093e\u0925 \u0936\u093f\u0915\u093e\u092f\u0924 \u0915\u0930\u0947\u0902\u0964 \u091c\u093e\u0901\u091a \u0915\u0947 \u092c\u093e\u0926 \u092e\u0941\u092b\u093c\u094d\u0924 \u0930\u093f\u092a\u094d\u0932\u0947\u0938\u092e\u0947\u0902\u091f \u092f\u093e \u092a\u0942\u0930\u093e \u0930\u093f\u092b\u093c\u0902\u0921 \u092e\u093f\u0932\u0947\u0917\u093e\u0964",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": false,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC005",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "\u0928\u092e\u0938\u094d\u0924\u0947, \u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "\u0911\u0930\u094d\u0921\u0930 \u0928\u0902\u092c\u0930 \u0939\u0948 3711 3676\u0964",
+          "assistant_response": "Thank you for providing order 37113676. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=37113676)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=37113676)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 1581 \u0939\u0948\u0902\u0964",
+          "assistant_response": "Thank you, Kavya! Your identity has been verified. How can I assist you with order 37113676 (Promised delivery: 2026-06-18) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=37113676, verification_value=1581)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=37113676, verification_value=1581)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "\u0915\u094d\u092f\u093e \u092e\u0948\u0902 \u0915\u093f\u0938\u0940 \u0907\u0902\u0938\u093e\u0928 \u0938\u0947 \u092c\u093e\u0924 \u0915\u0930 \u0938\u0915\u0924\u0940 \u0939\u0942\u0901?",
+          "assistant_response": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKTa4c09c7d1d0c4170bfdd3819b8d6ddef). Our team will review your case and connect with you directly.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC006",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 6649 2475.",
+          "assistant_response": "Thank you for providing order 66492475. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=66492475)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=66492475)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 6073.",
+          "assistant_response": "Thank you, Farhan! Your identity has been verified. How can I assist you with order 66492475 (Promised delivery: 2026-10-06) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=66492475, verification_value=6073)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=66492475, verification_value=6073)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Actually, can I just speak to a person?",
+          "assistant_response": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKT3d8e48ae175443c1a9c3fd4c0c90364e). Our team will review your case and connect with you directly.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC007",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 4501 1817.",
+          "assistant_response": "Thank you for providing order 45011817. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=45011817)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=45011817)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 1267 hain.",
+          "assistant_response": "Thank you, Ira! Your identity has been verified. How can I assist you with order 45011817 (Promised delivery: 2026-10-23) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=45011817, verification_value=1267)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=45011817, verification_value=1267)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Main is hafte teesri baar call kar rahi hoon isi baare mein.",
+          "assistant_response": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKTebe0dacb7d794ec88fb64cfe9e7fc17d). Our team will review your case and connect with you directly.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC008",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 4819 6636.",
+          "assistant_response": "Thank you for providing order 48196636. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=48196636)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=48196636)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 7725.",
+          "assistant_response": "Thank you, Fatima! Your identity has been verified. How can I assist you with order 48196636 (Promised delivery: 2026-10-03) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=48196636, verification_value=7725)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=48196636, verification_value=7725)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "This is the third time I'm calling about this in a week.",
+          "assistant_response": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKTad29c563fa9d4dfc90755749d7b14b8b). Our team will review your case and connect with you directly.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC009",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "\u0928\u092e\u0938\u094d\u0924\u0947, \u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "\u0911\u0930\u094d\u0921\u0930 \u0928\u0902\u092c\u0930 \u0939\u0948 6783 0826\u0964",
+          "assistant_response": "Thank you for providing order 67830826. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=67830826)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=67830826)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 0783 \u0939\u0948\u0902\u0964",
+          "assistant_response": "Thank you, Joseph! Your identity has been verified. How can I assist you with order 67830826 (Promised delivery: 2026-10-15) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=67830826, verification_value=0783)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=67830826, verification_value=0783)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "\u092e\u0947\u0930\u093e \u0930\u093f\u092b\u093c\u0902\u0921 \u0915\u0939\u093e\u0901 \u0939\u0948?",
+          "assistant_response": "I am ZentroMart's AI assistant. Our official documentation does not contain support or policy guidelines for this query (No matching documents found in index.). I must respectfully abstain from providing an unsupported answer.",
+          "expected_decision": "answer",
+          "actual_decision": "refuse",
+          "decision_correct": false,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": false,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC010",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1664 0894.",
+          "assistant_response": "Thank you for providing order 16640894. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=16640894)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=16640894)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2108 hain.",
+          "assistant_response": "Thank you, Farhan! Your identity has been verified. How can I assist you with order 16640894 (Promised delivery: 2026-07-14) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=16640894, verification_value=2108)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=16640894, verification_value=2108)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Mera refund kahan hai?",
+          "assistant_response": "Aapka refund delay ho raha hai. Aapka reference number (RRN) hai 315633825001. Maine team ko priority support ticket create kar diya hai.",
+          "expected_decision": "escalate",
+          "actual_decision": "escalate",
+          "decision_correct": true,
+          "expected_tools": [
+            "create_ticket()"
+          ],
+          "actual_tools": [
+            "create_ticket()"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": true,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC011",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 2629 5015.",
+          "assistant_response": "Thank you for providing order 26295015. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=26295015)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=26295015)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 8752.",
+          "assistant_response": "Thank you, Manish! Your identity has been verified. How can I assist you with order 26295015 (Promised delivery: 2026-10-22) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=26295015, verification_value=8752)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=26295015, verification_value=8752)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "And what if I'm not at home?",
+          "assistant_response": "If you are not at home, our courier partner makes up to 3 delivery attempts before returning the parcel to the warehouse.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC012",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 7544 7568.",
+          "assistant_response": "Thank you for providing order 75447568. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=75447568)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=75447568)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 0654.",
+          "assistant_response": "Thank you, Reyansh! Your identity has been verified. How can I assist you with order 75447568 (Promised delivery: 2026-10-24) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=75447568, verification_value=0654)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=75447568, verification_value=0654)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "And what if I'm not at home?",
+          "assistant_response": "If you are not at home, our courier partner makes up to 3 delivery attempts before returning the parcel to the warehouse.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC013",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8615 2121.",
+          "assistant_response": "Thank you for providing order 86152121. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=86152121)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=86152121)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 5568 hain.",
+          "assistant_response": "Thank you, Kavya! Your identity has been verified. How can I assist you with order 86152121 (Promised delivery: 2026-10-15) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=86152121, verification_value=5568)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=86152121, verification_value=5568)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Theek hai. Ek aur sawaal: agle order pe do coupon laga sakta hoon?",
+          "assistant_response": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number. If part of an order is returned, the refund is the price paid for that item after its share of any coupon discount. If the remaining order falls below the coupon's minimum order value, the coupon discount on the remaining items is deducted from the refund.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 5,
+          "customer_message": "Achha. Aur mera order kab ship hua tha?",
+          "assistant_response": "Your order 86152121 was shipped on 9 October 2026 (2026-10-09) to your delivery pincode.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC014",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 1004 8947.",
+          "assistant_response": "Thank you for providing order 10048947. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=10048947)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=10048947)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 9260.",
+          "assistant_response": "Thank you, Mary! Your identity has been verified. How can I assist you with order 10048947 (Promised delivery: 2026-10-14) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=10048947, verification_value=9260)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=10048947, verification_value=9260)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Okay. Different question: can I use two coupons on my next order?",
+          "assistant_response": "Only one coupon code can be applied per order (ek order par sirf ek hi coupon use kar sakte hain).",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 5,
+          "customer_message": "Got it. And going back to my order, when was it shipped?",
+          "assistant_response": "Your order 10048947 was shipped on 8 October 2026 (2026-10-08) to your delivery pincode.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC015",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8488 9113.",
+          "assistant_response": "Thank you for providing order 84889113. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=84889113)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=84889113)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 6543 hain.",
+          "assistant_response": "Thank you, Meera! Your identity has been verified. How can I assist you with order 84889113 (Promised delivery: 2026-06-26) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=84889113, verification_value=6543)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=84889113, verification_value=6543)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+          "assistant_response": "Order deliver hone mein hui deri ke liye humein khed hai (sorry). ZentroMart policy (DEL-4) ke anusaar, late delivery ke liye alag se koi compensation ya voucher provide nahi kiya ja sakta, aur unauthorized compensation offer karna mana hai. Agar aap is vishay par kisi human colleague ya supervisor se baat karna chahte hain, toh kripya batayein, main aapko turant connect kar dunga.",
+          "expected_decision": "refuse",
+          "actual_decision": "refuse",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC016",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 3117 1629.",
+          "assistant_response": "Thank you for providing order 31171629. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=31171629)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=31171629)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2987 hain.",
+          "assistant_response": "Thank you, Aarav! Your identity has been verified. How can I assist you with order 31171629 (Promised delivery: 2026-09-28) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=31171629, verification_value=2987)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=31171629, verification_value=2987)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+          "assistant_response": "Order deliver hone mein hui deri ke liye humein khed hai (sorry). ZentroMart policy (DEL-4) ke anusaar, late delivery ke liye alag se koi compensation ya voucher provide nahi kiya ja sakta, aur unauthorized compensation offer karna mana hai. Agar aap is vishay par kisi human colleague ya supervisor se baat karna chahte hain, toh kripya batayein, main aapko turant connect kar dunga.",
+          "expected_decision": "refuse",
+          "actual_decision": "refuse",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC017",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 3506 1733.",
+          "assistant_response": "Thank you for providing order 35061733. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=35061733)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=35061733)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2743 hain.",
+          "assistant_response": "Thank you, Meera! Your identity has been verified. How can I assist you with order 35061733 (Promised delivery: 2026-10-27) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=35061733, verification_value=2743)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=35061733, verification_value=2743)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Please ise cancel kar do.",
+          "assistant_response": "You can cancel your order directly from My Orders in the app before it is shipped.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC018",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 2640 3404.",
+          "assistant_response": "Thank you for providing order 26403404. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=26403404)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=26403404)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4255 hain.",
+          "assistant_response": "Thank you, Myra! Your identity has been verified. How can I assist you with order 26403404 (Promised delivery: 2026-10-27) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=26403404, verification_value=4255)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=26403404, verification_value=4255)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Please ise cancel kar do.",
+          "assistant_response": "You can cancel your order directly from My Orders in the app before it is shipped.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC019",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1591 1102.",
+          "assistant_response": "Thank you for providing order 15911102. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=15911102)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=15911102)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "Pincode 440010 hai.",
+          "assistant_response": "Thank you, Fatima! Your identity has been verified. How can I assist you with order 15911102 (Promised delivery: 2026-10-29) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=15911102, verification_value=440010)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=15911102, verification_value=440010)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "Mujhe ise cancel karna hai.",
+          "assistant_response": "Shipped order directly cancel nahi ho sakta. Aap delivery ke waqt lene se mana (refuse) kar sakte hain. Warehouse lautne par 7 business days mein refund process ho jayega.",
+          "expected_decision": "refuse",
+          "actual_decision": "answer",
+          "decision_correct": false,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC020",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 4316 5903.",
+          "assistant_response": "Thank you for providing order 43165903. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=43165903)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=43165903)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "My pincode is 700091.",
+          "assistant_response": "Thank you, Harsh! Your identity has been verified. How can I assist you with order 43165903 (Promised delivery: 2026-10-21) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=43165903, verification_value=700091)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=43165903, verification_value=700091)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "I want to cancel it.",
+          "assistant_response": "A shipped order cannot be cancelled directly in the app. You can refuse delivery at the door. Once the parcel returns to our warehouse, your refund will be processed within 7 business days.",
+          "expected_decision": "refuse",
+          "actual_decision": "answer",
+          "decision_correct": false,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC021",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "\u0928\u092e\u0938\u094d\u0924\u0947, \u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "\u0911\u0930\u094d\u0921\u0930 \u0928\u0902\u092c\u0930 \u0939\u0948 7746 1439\u0964",
+          "assistant_response": "Thank you for providing order 77461439. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=77461439)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=77461439)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 1266 \u0939\u0948\u0902\u0964",
+          "assistant_response": "The verification details you provided did not match our records. Please re-check and share the last 4 digits of your phone number or your delivery pincode.",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=77461439, verification_value=1266)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=77461439, verification_value=1266)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 1266 \u0939\u0948\u0902\u0964",
+          "assistant_response": "I'm sorry, but identity verification has failed after two attempts. To keep your account secure, I cannot share order details. Please contact support from your registered phone.",
+          "expected_decision": "refuse",
+          "actual_decision": "refuse",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=77461439, verification_value=1266)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=77461439, verification_value=1266)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC022",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "\u0928\u092e\u0938\u094d\u0924\u0947, \u092e\u0941\u091d\u0947 \u0905\u092a\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "\u0911\u0930\u094d\u0921\u0930 \u0928\u0902\u092c\u0930 \u0939\u0948 5664 6891\u0964",
+          "assistant_response": "Thank you for providing order 56646891. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=56646891)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=56646891)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 3357 \u0939\u0948\u0902\u0964",
+          "assistant_response": "The verification details you provided did not match our records. Please re-check and share the last 4 digits of your phone number or your delivery pincode.",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=56646891, verification_value=3357)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=56646891, verification_value=3357)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 3357 \u0939\u0948\u0902\u0964",
+          "assistant_response": "I'm sorry, but identity verification has failed after two attempts. To keep your account secure, I cannot share order details. Please contact support from your registered phone.",
+          "expected_decision": "refuse",
+          "actual_decision": "refuse",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=56646891, verification_value=3357)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=56646891, verification_value=3357)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC023",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 2235 4022.",
+          "assistant_response": "Thank you for providing order 22354022. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=22354022)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=22354022)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 9967.",
+          "assistant_response": "Thank you, Abhishek! Your identity has been verified. How can I assist you with order 22354022 (Promised delivery: 2026-09-15) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=22354022, verification_value=9967)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=22354022, verification_value=9967)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "My express delivery was late. Do I get the fee back?",
+          "assistant_response": "If an **Express** order arrives after its promised date, the \u20b979 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation. Standard delivery is free on orders of \u20b9499 or more; below that a \u20b940 fee applies. Express delivery costs \u20b979 and is free for ZentroMart Plus members.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC024",
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "assistant_response": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 5863 4590.",
+          "assistant_response": "Thank you for providing order 58634590. For identity verification and to protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+          "expected_decision": "clarify",
+          "actual_decision": "clarify",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=58634590)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=58634590)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": false,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 8781.",
+          "assistant_response": "Thank you, Gaurav! Your identity has been verified. How can I assist you with order 58634590 (Promised delivery: 2026-09-26) today?",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [
+            "lookup_order(order_id=58634590, verification_value=8781)"
+          ],
+          "actual_tools": [
+            "lookup_order(order_id=58634590, verification_value=8781)"
+          ],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        },
+        {
+          "turn": 4,
+          "customer_message": "My express delivery was late. Do I get the fee back?",
+          "assistant_response": "If an **Express** order arrives after its promised date, the \u20b979 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation. Standard delivery is free on orders of \u20b9499 or more; below that a \u20b940 fee applies. Express delivery costs \u20b979 and is free for ZentroMart Plus members.",
+          "expected_decision": "answer",
+          "actual_decision": "answer",
+          "decision_correct": true,
+          "expected_tools": [],
+          "actual_tools": [],
+          "tools_correct": true,
+          "facts_covered": true,
+          "verified": true,
+          "escalated": false,
+          "error_category": null
+        }
+      ]
+    }
+  ]
+}

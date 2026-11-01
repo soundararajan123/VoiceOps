@@ -1,0 +1,24 @@
+{
+  "original_audio": "tv_damage_escalation.wav",
+  "transcription": "My television arrived with a cracked screen and damage, I want to escalate to a representative.",
+  "response_text": "I understand your concern and apologize for the inconvenience. I am connecting you to a human colleague (\u0938\u0939\u092f\u094b\u0917\u0940) right away. I have created a priority support ticket for you (ticket TKT7ef9968821ff49d598e671b6f05f449e). Our team will review your case and connect with you directly.",
+  "response_audio": "tv_damage_escalation_reply.wav",
+  "text_reply": "tv_damage_escalation_reply.txt",
+  "tts_status": "synthetic_wav_generated",
+  "stt_status": "offline_fixture",
+  "gnani_config": {
+    "voice": "Kaveri",
+    "model": "timbre-v2.5",
+    "language": "en-IN",
+    "live_api": false
+  },
+  "decision": "escalate",
+  "order_id": null,
+  "tool_calls": [
+    "create_ticket()"
+  ],
+  "retrieved_evidence": [
+    "ESC-1"
+  ],
+  "status": "success"
+}

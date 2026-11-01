@@ -1,0 +1,15 @@
+{
+  "total_questions": 52,
+  "step1_baseline": {
+    "decision_accuracy_pct": 88.5,
+    "fact_coverage_pct": 1.9
+  },
+  "step2_rag": {
+    "decision_accuracy_pct": 82.7,
+    "fact_coverage_pct": 51.9,
+    "evidence_hit_rate_pct": 53.8,
+    "appropriate_abstention_pct": 80.0
+  },
+  "llm_provider": "auto",
+  "llm_model": "gpt-4o-mini"
+}

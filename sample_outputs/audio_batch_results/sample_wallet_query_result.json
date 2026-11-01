@@ -1,0 +1,17 @@
+{
+  "original_audio": "sample_wallet_query.wav",
+  "transcription": "How much time does a refund to the ZentroMart wallet take?",
+  "response_text": "According to ZentroMart's authoritative Refund Policy (REF-2, which supersedes general FAQ guidance under KB-00.1), refunds to the ZentroMart Wallet are credited instantly or within a maximum of 2 hours upon return inspection.",
+  "response_audio": "sample_wallet_query_reply.wav",
+  "tts_success": true,
+  "gnani_config": {
+    "voice": "Kaveri",
+    "model": "timbre-v2.5",
+    "language": "en-IN",
+    "live_api": false
+  },
+  "decision": "answer",
+  "order_id": "89782837",
+  "retrieved_evidence": [],
+  "status": "SUCCESS"
+}

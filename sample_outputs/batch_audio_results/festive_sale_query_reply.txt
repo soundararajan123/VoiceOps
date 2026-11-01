@@ -1,0 +1,12 @@
+Audio File: festive_sale_query.wav
+Customer Transcription: What is the festive sale return window for clothing?
+
+Agent Text Response:
+Hello! I am ZentroMart's AI customer support assistant (एआई सहायक). I would be glad to help you today. Could you please share your 8-digit order number?
+
+Retrieved Document Chunks / Sources: STY-1
+
+Retrieved Source Chunks Detail:
+
+--- Section [STY-1] ---
+Section verified in ZentroMart knowledge base.

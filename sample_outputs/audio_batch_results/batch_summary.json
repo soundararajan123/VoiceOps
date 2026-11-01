@@ -1,0 +1,58 @@
+{
+  "total_processed": 3,
+  "successful": 3,
+  "failed": 0,
+  "results": [
+    {
+      "original_audio": "sample_festive_sale.wav",
+      "transcription": "What is the festive sale return window?",
+      "response_text": "Hello! I am ZentroMart's AI customer support assistant (\u090f\u0906\u0908 \u0938\u0939\u093e\u092f\u0915). I would be glad to help you today. Could you please share your 8-digit order number?",
+      "response_audio": "sample_festive_sale_reply.wav",
+      "tts_success": true,
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "clarify",
+      "order_id": null,
+      "retrieved_evidence": [],
+      "status": "SUCCESS"
+    },
+    {
+      "original_audio": "sample_order_status.wav",
+      "transcription": "What is the status of my order 89782837?",
+      "response_text": "Thank you for providing order 89782837. To protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+      "response_audio": "sample_order_status_reply.wav",
+      "tts_success": true,
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "clarify",
+      "order_id": "89782837",
+      "retrieved_evidence": [],
+      "status": "SUCCESS"
+    },
+    {
+      "original_audio": "sample_wallet_query.wav",
+      "transcription": "How much time does a refund to the ZentroMart wallet take?",
+      "response_text": "According to ZentroMart's authoritative Refund Policy (REF-2, which supersedes general FAQ guidance under KB-00.1), refunds to the ZentroMart Wallet are credited instantly or within a maximum of 2 hours upon return inspection.",
+      "response_audio": "sample_wallet_query_reply.wav",
+      "tts_success": true,
+      "gnani_config": {
+        "voice": "Kaveri",
+        "model": "timbre-v2.5",
+        "language": "en-IN",
+        "live_api": false
+      },
+      "decision": "answer",
+      "order_id": "89782837",
+      "retrieved_evidence": [],
+      "status": "SUCCESS"
+    }
+  ]
+}

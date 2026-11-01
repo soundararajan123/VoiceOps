@@ -1,0 +1,17 @@
+{
+  "original_audio": "sample_order_status.wav",
+  "transcription": "What is the status of my order 89782837?",
+  "response_text": "Thank you for providing order 89782837. To protect your privacy, could you please verify your identity by sharing the last 4 digits of your registered phone number or your 6-digit delivery pincode (\u0906\u0916\u093c\u093f\u0930\u0940 \u091a\u093e\u0930 \u0905\u0902\u0915 \u092f\u093e \u092a\u093f\u0928\u0915\u094b\u0921)?",
+  "response_audio": "sample_order_status_reply.wav",
+  "tts_success": true,
+  "gnani_config": {
+    "voice": "Kaveri",
+    "model": "timbre-v2.5",
+    "language": "en-IN",
+    "live_api": false
+  },
+  "decision": "clarify",
+  "order_id": "89782837",
+  "retrieved_evidence": [],
+  "status": "SUCCESS"
+}
